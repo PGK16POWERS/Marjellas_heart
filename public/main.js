@@ -1,3 +1,13 @@
-import data from './data.json' assert{type: 'json'};
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("./data.json", {
+        method: 'GET'
+    })
+    .then(response => response.json())
+    .then(data => {
+        const dataPlot = document.querySelector("#Plot");
 
-console.log('Zee data: ' + data);
+        data.forEach(doc => {
+            dataPlot.append(JSON.stringify(doc))
+        })
+    })
+})
