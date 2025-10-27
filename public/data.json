@@ -1,0 +1,52 @@
+[
+  {
+    "id": "P001",
+    "name": "Thabo Ndlovu",
+    "coords": { "lat": -26.1078, "lon": 28.0561 }
+  },
+  {
+    "id": "P002",
+    "name": "Lerato Maseko",
+    "coords": { "lat": -26.1102, "lon": 28.0678 }
+  },
+  {
+    "id": "P003",
+    "name": "Michael Nkosi",
+    "coords": { "lat": -26.0987, "lon": 28.0494 }
+  },
+  {
+    "id": "P004",
+    "name": "Sarah Moagi",
+    "coords": { "lat": -26.1019, "lon": 28.0702 }
+  },
+  {
+    "id": "P005",
+    "name": "Jason Mahlangu",
+    "coords": { "lat": -26.1035, "lon": 28.0601 }
+  },
+  {
+    "id": "P006",
+    "name": "Ayanda Khumalo",
+    "coords": { "lat": -26.1093, "lon": 28.0478 }
+  },
+  {
+    "id": "P007",
+    "name": "Naledi Dlamini",
+    "coords": { "lat": -26.1124, "lon": 28.0535 }
+  },
+  {
+    "id": "P008",
+    "name": "Ethan Mashaba",
+    "coords": { "lat": -26.1056, "lon": 28.0639 }
+  },
+  {
+    "id": "P009",
+    "name": "Kagiso Phiri",
+    "coords": { "lat": -26.0951, "lon": 28.0725 }
+  },
+  {
+    "id": "P010",
+    "name": "Michelle Pillay",
+    "coords": { "lat": -26.1009, "lon": 28.0572 }
+  }
+]
