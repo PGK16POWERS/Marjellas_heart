@@ -7,7 +7,20 @@ document.addEventListener("DOMContentLoaded", () => {
         const dataPlot = document.querySelector("#Plot");
 
         data.forEach(doc => {
-            dataPlot.append(JSON.stringify(doc))
+            
+            const activeUser = document.createElement("div");
+            activeUser.style.display = "flex";
+            activeUser.style.flexDirection = "column";
+            activeUser.style.border = "2px solid black";
+            activeUser.style.padding = "8px";
+            activeUser.style.maxWidth = "300px";
+
+
+            const userName = document.createElement('p');
+            userName.textContent = JSON.stringify(doc.name);
+            activeUser.append(userName);
+
+            dataPlot.append(activeUser)
         })
     })
 })
